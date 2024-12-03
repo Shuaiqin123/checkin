@@ -1,10 +1,10 @@
-name: run
+name: Glados checkin
 
 on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: 10 16 * * *
+    - cron: 10 1 * * *
 
 jobs:
   run:
